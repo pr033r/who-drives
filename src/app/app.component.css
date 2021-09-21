@@ -1,0 +1,9 @@
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+mat-card-header > img {
+  width: 25%;
+}
