@@ -1,13 +1,12 @@
 <mat-card class="container">
   <mat-card-header>
-    <img mat-card-image src="../assets/main_logo.png" />
-    <div style="margin: auto">
-      <button mat-button>Basic</button>
-      <button mat-button>Basic</button>
-      <button mat-button>Basic</button>
-      <button mat-button>Basic</button>
+    <img [routerLink]="['/']" mat-card-image src="../assets/main_logo.png" />
+    <div class="menu-wrapper">
+      <app-menu></app-menu>
     </div>
   </mat-card-header>
   <mat-divider></mat-divider>
-  <mat-card-content> Content... </mat-card-content>
+  <mat-card-content>
+    <router-outlet></router-outlet>
+  </mat-card-content>
 </mat-card>

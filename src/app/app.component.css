@@ -6,4 +6,16 @@
 
 mat-card-header > img {
   width: 25%;
+  cursor: pointer;
+}
+
+mat-card-header > img:hover {
+  width: 25%;
+  cursor: pointer;
+}
+
+.menu-wrapper {
+  margin: auto;
+  margin-left: 100px;
+  width: 100%;
 }
