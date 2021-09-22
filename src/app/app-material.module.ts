@@ -5,6 +5,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonModule,
     MatMenuModule,
     MatIconModule,
+    MatTableModule,
   ],
   exports: [
     BrowserAnimationsModule,
@@ -22,6 +24,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonModule,
     MatMenuModule,
     MatIconModule,
+    MatTableModule,
   ],
   providers: [],
 })
